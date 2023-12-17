@@ -24,3 +24,32 @@ gcc Snake.cpp -o play -lncurses
 ./play
 ```
 * Finally, enjoy 🕹️
+
+## Controller
+
+🆆🅰🆂🅳 will be the buttons used for control within this game.
+
+* 🆆 - Up
+* 🅰 - Left
+* 🆂 - Down
+* 🅳 - Right
+
+## In-Game Component
+
+Here are all the components within this game.
+
+* `+` - Wall
+* `X` - Egg
+* `O` - Snake head
+* `o` - Snake Tail
+
+## How to play it?
+
+1. When the game start use your controller button to control the snake.
+2. Collect eggs as much as you can. (They will respawn at the new position when you collect them.)
+3. Be careful of collisions with `Wall` and `Snake Tail`.
+
+## Screenshot
+
+![gameplay screenshot](https://drive.google.com/file/d/14GZXgYSnjalMFyCOzefM_AsK1R3xyPnH/view?usp=drive_link)
+
