@@ -1,4 +1,4 @@
-## Snake Game (Ncurses Library) 🐍
+## 🐍 Snake Game (Ncurses Library) 
 
 Snake game application for self-learning in C++ game programming using the Ncurses library.
  
@@ -18,8 +18,9 @@ cd [file directory]
 gcc Snake.cpp -o play -lncurses
 ```
 
-* Finally, cast this command for play.
+* Cast this command to play.
 
 ```
 ./play
 ```
+* Finally, enjoy 🕹️
