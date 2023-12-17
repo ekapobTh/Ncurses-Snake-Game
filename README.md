@@ -47,7 +47,7 @@ Here are all the components within this game.
 
 1. When the game start use your controller button to control the snake.
 2. Collect eggs as much as you can. (They will respawn at the new position when you collect them.)
-3. Be careful of collisions with `Wall` and `Snake Tail`.
+3. Be careful of collisions with `+` (Wall) and `o` (Snake Tail).
 
 ## Screenshot
 
