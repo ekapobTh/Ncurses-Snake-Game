@@ -41,13 +41,13 @@ Here are all the components within this game.
 * `+` - Wall
 * `X` - Egg
 * `O` - Snake head
-* `o` - Snake Tail
+* `o` - Snake tail
 
 ## How to play it?
 
-1. When the game start use your controller button to control the snake.
+1. When the game start use your controller button to control `O` (Snake head).
 2. Collect eggs as much as you can. (They will respawn at the new position when you collect them.)
-3. Be careful of collisions with `+` (Wall) and `o` (Snake Tail).
+3. Be careful of collisions with `+` (Wall) and `o` (Snake tail).
 
 ## Screenshot
 
