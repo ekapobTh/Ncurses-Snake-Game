@@ -46,8 +46,10 @@ Here are all the components within this game.
 ## How to play it?
 
 1. When the game start use your controller button to control `O` (Snake head).
-2. Collect eggs as much as you can. (They will respawn at the new position when you collect them.)
-3. Be careful of collisions with `+` (Wall) and `o` (Snake tail).
+2. Collect eggs as much as you can.
+   * They will respawn at the new position when you collect them.
+   * Every time you collect them, the snake's tail will get longer.
+4. Be careful of collisions with `+` (Wall) and `o` (Snake tail).
 
 ## Screenshot
 
