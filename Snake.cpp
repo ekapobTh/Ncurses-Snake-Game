@@ -168,10 +168,9 @@ int main(){
             Input();
             Logic();        
         }
-
-        clear();
-        Draw();
         
+        Draw();
+
         mvprintw(23,0,"Score %d - Game Over. ",score);
         mvprintw(26,0,"Press Q to quit");
         mvprintw(25,0,"Press R to replay");
