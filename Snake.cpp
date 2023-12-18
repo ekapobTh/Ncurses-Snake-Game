@@ -31,8 +31,7 @@ void Setup(){
     curs_set(0);
 }
 
-void Initialize()
-{
+void Initialize(){
     gameOver = false;
     dir = STOP;
     x = width/2;
@@ -160,12 +159,10 @@ int main(){
 
     Setup();
 
-    while(true)
-    {
+    while(true){
         Initialize();
 
-        while(!gameOver)
-        {
+        while(!gameOver){
             Draw();
             Input();
             Logic();        
@@ -177,9 +174,8 @@ int main(){
         mvprintw(25,0,"Press R to replay");
 
         int ch = -1;
-        while ((ch = getch()) != asciiQ && (ch = getch()) != asciiR) {
+        while ((ch = getch()) != asciiQ && (ch = getch()) != asciiR)
             refresh();
-        }
 
         if(ch == asciiR)
             clear();
