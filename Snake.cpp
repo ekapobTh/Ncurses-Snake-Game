@@ -68,8 +68,8 @@ void Draw(){
         }
     }
 
-    mvprintw(23,0,"Score %d",score);
-    mvprintw(24,0,"Press Q to end game");
+    if(!gameOver)
+        mvprintw(23,0,"Score %d | Press Q to end game",score);
 
     refresh();
 }
@@ -169,7 +169,10 @@ int main(){
             Logic();        
         }
 
-        mvprintw(23,0,"Score %d - Game Over",score);
+        clear();
+        Draw();
+        
+        mvprintw(23,0,"Score %d - Game Over. ",score);
         mvprintw(26,0,"Press Q to quit");
         mvprintw(25,0,"Press R to replay");
 
