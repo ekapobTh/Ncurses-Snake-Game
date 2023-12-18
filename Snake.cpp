@@ -70,6 +70,8 @@ void Draw(){
 
     if(!gameOver)
         mvprintw(23,0,"Score %d | Press Q to end game",score);
+    else
+        mvprintw(23,0,"Score %d - Game Over. ",score);
 
     refresh();
 }
@@ -168,10 +170,9 @@ int main(){
             Input();
             Logic();        
         }
-        
+
         Draw();
 
-        mvprintw(23,0,"Score %d - Game Over. ",score);
         mvprintw(26,0,"Press Q to quit");
         mvprintw(25,0,"Press R to replay");
 
