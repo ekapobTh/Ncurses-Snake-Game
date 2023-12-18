@@ -1,6 +1,4 @@
 # 🐍 Snake Game (Ncurses Library) 
-
-Snake game application for self-learning in C++ game programming using Ncurses library.
  
 ## Compilation
 
