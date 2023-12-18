@@ -53,5 +53,5 @@ Here are all the components within this game.
 
 ## Screenshot
 
-![gameplay screenshot](https://drive.google.com/uc?export=view&id=14GZXgYSnjalMFyCOzefM_AsK1R3xyPnH)
+![gameplay screenshot](https://drive.google.com/uc?export=view&id=1zi9okaC5Q7mv4WN4mwwXEdgqbZCPX1Q2)
 
