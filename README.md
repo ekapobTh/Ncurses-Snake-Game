@@ -49,7 +49,7 @@ Here are all the components within this game.
    * Every time you collect them, the snake's tail will get longer.
 4. Be careful of collisions with `+` (Wall) and `o` (Snake tail).
 
-## Screenshot
+## Sample Gameplay
 
-![gameplay screenshot](https://drive.google.com/uc?export=view&id=1zi9okaC5Q7mv4WN4mwwXEdgqbZCPX1Q2)
+![gameplay](https://drive.google.com/uc?export=view&id=1zi9okaC5Q7mv4WN4mwwXEdgqbZCPX1Q2)
 
